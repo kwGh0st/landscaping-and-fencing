@@ -4,10 +4,10 @@ import {
   pergolaImage,
   landscapeImage,
   patioImage,
-  handshake,
-  smile,
-  bank,
   check,
+  consultation,
+  face,
+  savings,
 } from "../assets";
 
 const About = () => {
@@ -29,7 +29,7 @@ const About = () => {
         </div>
         <div className="flex flex-col flex-wrap w-full lg:flex-row lg:items-baseline lg:justify-between gap-6">
           <div className="flex flex-col flex-1 justify-center items-center gap-6">
-            <img className="w-20" src={handshake} alt="handshake" />
+            <img className="w-20" src={consultation} alt="handshake" />
             <h2 className="font-bold text-2xl font-serif">
               Complimentary and transparent guidance.
             </h2>
@@ -42,7 +42,7 @@ const About = () => {
             </p>
           </div>
           <div className="flex flex-col flex-1 justify-center items-center gap-6">
-            <img className="w-20" src={bank} alt="bank" />
+            <img className="w-20" src={savings} alt="bank" />
             <h2 className="font-bold text-2xl font-serif">
               Detailed, reliable cost estimates
             </h2>
@@ -53,7 +53,7 @@ const About = () => {
             </p>
           </div>
           <div className="flex flex-col flex-1 justify-center items-center gap-6">
-            <img className="w-20" src={smile} alt="smile" />
+            <img className="w-20" src={face} alt="smile" />
             <h2 className="font-bold text-2xl font-serif">
               Exceptional craftsmanship, guaranteed.
             </h2>

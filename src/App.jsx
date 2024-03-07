@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import "./index.css";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,9 +14,7 @@ const App = () => {
       <Hero />
       <About />
       <Features />
-      <Routes>
-        <Route />
-      </Routes>
+      <Footer />
     </Router>
   );
 };

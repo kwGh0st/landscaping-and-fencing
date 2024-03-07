@@ -19,6 +19,14 @@ import paving from "./paving.png";
 import woodBoard from "./wood-board.png";
 import lawnMower from "./lawn-mower.png";
 import plant from "./plant.png";
+import phone from "./phone.png";
+import email from "./email.png";
+import user from "./user.png";
+import instagram from "./instagram.png";
+import facebook from "./facebook.png";
+import consultation from "./consultation.gif";
+import savings from "./savings-pig.gif";
+import face from "./smile.gif";
 
 export {
   logo,
@@ -42,4 +50,12 @@ export {
   woodBoard,
   lawnMower,
   plant,
+  phone,
+  email,
+  user,
+  instagram,
+  facebook,
+  consultation,
+  savings,
+  face,
 };
