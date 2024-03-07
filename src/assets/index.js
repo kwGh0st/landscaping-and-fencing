@@ -9,7 +9,16 @@ import landscapeImage from "./landscape.jpg";
 import deckingImage from "./decking.jpg";
 import patioImage from "./patio.jpg";
 import check from "./check.png";
-import questionMark from "./question-mark.gif";
+import bricks from "./bricks.jpg";
+import deckingImage2 from "./decking_2.jpg";
+import fence from "./fence.jpg";
+import garden from "./garden.jpg";
+import fence_2 from "./fence.png";
+import patio from "./patio.png";
+import paving from "./paving.png";
+import woodBoard from "./wood-board.png";
+import lawnMower from "./lawn-mower.png";
+import plant from "./plant.png";
 
 export {
   logo,
@@ -23,5 +32,14 @@ export {
   deckingImage,
   patioImage,
   check,
-  questionMark,
+  bricks,
+  deckingImage2,
+  fence,
+  garden,
+  fence_2,
+  patio,
+  paving,
+  woodBoard,
+  lawnMower,
+  plant,
 };
