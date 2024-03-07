@@ -64,7 +64,7 @@ const Navbar = () => {
               <li
                 key={link.id}
                 className={`${
-                  active === link.title ? "text-white" : ""
+                  active === link.title ? "text-green-600" : ""
                 } hover:text-green-600 font-semibold text-xl transition duration-300 cursor-pointer`}
                 onClick={() => {
                   setToggle(!toggle);

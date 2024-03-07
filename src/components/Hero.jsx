@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-center text-white font-serif">
           <h1 className={`${styles.heroHeadText} flex flex-col`}>
-            <span>DW</span> Landscaping&Fencing
+            <span>DW</span> Landscaping & Fencing
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white`}>
             We create beautiful gardens and sturdy fences, bringing your dreams
