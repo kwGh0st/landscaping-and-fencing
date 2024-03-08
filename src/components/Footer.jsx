@@ -156,10 +156,16 @@ const Footer = () => {
       </div>
       <div className="flex flex-col justify-center items-center mt-8 p-8">
         <p className="text-gray-500 text-sm">
-          &copy; {currentYear} Karol Wojtacha
+          <a href="https://kwgh0st.github.io/wojtachakarol/" target="_blank">
+            &copy; {currentYear} Karol Wojtacha
+          </a>
         </p>
         <p className="text-gray-500 text-sm">
-          <a className="text-gray-500 text-sm" href="https://lordicon.com/">
+          <a
+            className="text-gray-500 text-sm"
+            href="https://lordicon.com/"
+            target="_blank"
+          >
             Icons by Lordicon.com
           </a>
         </p>

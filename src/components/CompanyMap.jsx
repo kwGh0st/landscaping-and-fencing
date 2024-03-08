@@ -61,7 +61,7 @@ const CompanyMap = () => {
     };
 
     loadMapScript();
-  }, [apiKey, infoWindow]);
+  }, [apiKey, infoWindow, location.pathname]);
 
   return <div id="map" className="min-h-96 w-full"></div>;
 };
