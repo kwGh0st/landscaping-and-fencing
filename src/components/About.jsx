@@ -66,11 +66,11 @@ const About = () => {
           </div>
         </div>
       </div>
+      <h2 className="text-center font-bold font-serif text-4xl my-12 mx-4 text-gray-800">
+        We are equipped to meet all your requirements for hard landscaping
+        projects.
+      </h2>
       <div className="flex flex-col py-8 w-full lg:w-11/12 self-end">
-        <h2 className="text-center font-bold font-serif text-4xl my-8 mx-4 text-gray-800">
-          We are equipped to meet all your requirements for hard landscaping
-          projects.
-        </h2>
         <div className="flex flex-row gap-8 bg-gradient-to-r from-green-400 to-gray-200">
           <div className="hidden lg:flex lg:flex-col">
             <div className="flex flex-row">

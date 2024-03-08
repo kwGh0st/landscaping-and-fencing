@@ -35,14 +35,14 @@ const Feedbacks = () => {
 
   return (
     <div className="w-full flex justify-center bg-gray-50 min-h-screen">
-      <div className="flex flex-row w-10/12 my-8 p-12 justify-between gap-12 bg-gray-100 rounded-lg">
-        <div className="flex flex-col gap-8 w-2/4">
+      <div className="flex flex-col lg:flex-row w-10/12 my-8 p-12 lg:justify-between gap-12 bg-gray-100 rounded-lg">
+        <div className="flex text-center flex-col gap-8 w-full md:w-2/4">
           <h2 className="text-black text-center text-4xl font-serif font-extrabold max-w-6xl">
             WHAT OTHERS SAY ABOUT US
           </h2>
-          <img className="w-32 h-32 mt-8" src={comment} alt="quote" />
+          <img className="w-32 h-32 mt-8 ml-4" src={comment} alt="quote" />
         </div>
-        <div className="flex flex-col items-center gap-6 px-6 text-center w-2/4">
+        <div className="flex flex-col items-center gap-6 px-6 text-center w-full lg:w-2/4">
           <motion.div
             key={currentIndex}
             variants={textVariant()}
@@ -54,7 +54,7 @@ const Feedbacks = () => {
             <h2 className="font-bold text-2xl">
               {feedbacks[currentIndex].name}
             </h2>
-            <p className="text-2xl text-start italic">
+            <p className="text-md lg:text-xl text-start italic text-balance">
               {" "}
               {feedbacks[currentIndex].text}
             </p>

@@ -25,7 +25,7 @@ const Features = () => {
                   src={fence_2}
                   alt="fence"
                 />
-                <p className="font-bold text-white text-sm">
+                <p className="font-bold text-white text-md lg:text-lg">
                   Elevate your property's security and aesthetics with our
                   exquisite fencing and gate solutions.
                 </p>
@@ -36,7 +36,7 @@ const Features = () => {
                   src={patio}
                   alt="patio"
                 />
-                <p className="font-bold text-white text-sm">
+                <p className="font-bold text-white text-md lg:text-lg">
                   Transform your outdoor space into a haven of relaxation and
                   entertainment with our skillfully designed patios.
                 </p>
@@ -47,7 +47,7 @@ const Features = () => {
                   src={paving}
                   alt="paving"
                 />
-                <p className="font-bold text-white text-sm">
+                <p className="font-bold text-white text-md lg:text-lg">
                   Infuse character and durability into your landscape with our
                   precision brickwork.
                 </p>
@@ -58,7 +58,7 @@ const Features = () => {
                   src={woodBoard}
                   alt="wood-board"
                 />
-                <p className="font-bold text-white text-sm">
+                <p className="font-bold text-white text-md lg:text-lg">
                   Unleash the potential of your outdoor living with our custom
                   decking solutions.
                 </p>
@@ -69,7 +69,7 @@ const Features = () => {
                   src={lawnMower}
                   alt="lawnMower"
                 />
-                <p className="font-bold text-white text-sm">
+                <p className="font-bold text-white text-md lg:text-lg">
                   Experience the lush greenery of a well-maintained lawn with
                   our turfing services.
                 </p>
@@ -80,7 +80,7 @@ const Features = () => {
                   src={plant}
                   alt="plant"
                 />
-                <p className="font-bold text-white text-sm">
+                <p className="font-bold text-white text-md lg:text-lg">
                   Curate a breathtaking landscape with our expert planting
                   services.
                 </p>
