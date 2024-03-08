@@ -84,9 +84,8 @@ const Footer = () => {
           &copy; {currentYear} Karol Wojtacha
         </p>
         <p className="text-gray-500 text-sm">
-          Icons: &nbsp;
-          <a className="text-gray-500 text-sm" href="https://lordicon.com">
-            lordicon.com
+          <a className="text-gray-500 text-sm" href="https://lordicon.com/">
+            Icons by Lordicon.com
           </a>
         </p>
       </div>

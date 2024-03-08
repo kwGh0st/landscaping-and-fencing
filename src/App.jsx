@@ -6,6 +6,7 @@ import About from "./components/About";
 import "./index.css";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
+import Feedbacks from "./components/Feedbacks";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <About />
       <Features />
+      <Feedbacks />
       <Footer />
     </Router>
   );

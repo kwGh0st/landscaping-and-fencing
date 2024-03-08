@@ -27,6 +27,9 @@ import facebook from "./facebook.png";
 import consultation from "./consultation.gif";
 import savings from "./savings-pig.gif";
 import face from "./smile.gif";
+import questionMark from "./question-mark.gif";
+import comment from "./comment.gif";
+import arrow from "./arrow.gif";
 
 export {
   logo,
@@ -58,4 +61,7 @@ export {
   consultation,
   savings,
   face,
+  questionMark,
+  comment,
+  arrow,
 };

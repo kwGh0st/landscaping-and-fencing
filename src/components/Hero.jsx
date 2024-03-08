@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="relative h-screen w-full bg-cover bg-center"
+      className="relative h-screen w-full bg-cover bg-center bg-gray-50"
       style={{ backgroundImage: `url(${gardenImage})` }}
     >
       <div className="absolute inset-0 bg-black opacity-40"></div>

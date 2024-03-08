@@ -12,7 +12,7 @@ import {
 
 const About = () => {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full bg-gray-50">
       <div
         id="about"
         className="flex flex-col items-center gap-4 px-6 text-center w-9/12 mx-auto"
@@ -44,7 +44,7 @@ const About = () => {
           <div className="flex flex-col flex-1 justify-center items-center gap-6">
             <img className="w-20" src={savings} alt="bank" />
             <h2 className="font-bold text-2xl font-serif">
-              Detailed, reliable cost estimates
+              Detailed, reliable cost estimates.
             </h2>
             <p className="my-4 text-xl font-serif leading-[30px] max-w-6xl">
               We go the extra mile in crafting our estimates to ensure a
