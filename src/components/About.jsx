@@ -13,10 +13,7 @@ import {
 const About = () => {
   return (
     <div className="flex flex-col w-full bg-gray-50">
-      <div
-        id="about"
-        className="flex flex-col items-center gap-4 px-6 text-center w-9/12 mx-auto"
-      >
+      <div className="flex flex-col items-center gap-4 px-6 text-center w-9/12 mx-auto">
         <p className="mt-12 mb-4 text-2xl italic font-serif max-w-6xl">
           We are a welcoming family-owned business based in Lincoln UK,
           dedicated to addressing all your gardening needs. Utilizing the finest
