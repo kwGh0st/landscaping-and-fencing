@@ -4,7 +4,6 @@ import gardenImage from "../assets/herobg.jpg";
 const Hero = () => {
   return (
     <div
-      id="home"
       className="relative h-screen w-full bg-cover bg-center bg-gray-50"
       style={{ backgroundImage: `url(${gardenImage})` }}
     >

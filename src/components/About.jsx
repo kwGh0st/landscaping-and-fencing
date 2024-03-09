@@ -67,8 +67,8 @@ const About = () => {
         We are equipped to meet all your requirements for hard landscaping
         projects.
       </h2>
-      <div className="flex flex-col py-8 w-full lg:w-11/12 self-end">
-        <div className="flex flex-row gap-8 bg-gradient-to-r from-green-400 to-gray-200">
+      <div className="flex flex-col py-8 w-full lg:w-11/12 self-end ">
+        <div className="flex flex-row gap-8 bg-gradient-to-r from-green-400 to-gray-200 ">
           <div className="hidden lg:flex lg:flex-col">
             <div className="flex flex-row">
               <img className="w-72 h-64" src={pergolaImage} alt="pergola" />

@@ -1,22 +1,18 @@
 export const navLinks = [
   {
-    id: "home ",
+    id: "/home ",
     title: "Home ",
   },
   {
-    id: "about ",
-    title: "About ",
-  },
-  {
-    id: "services ",
+    id: "/services ",
     title: "Services ",
   },
   {
-    id: "projects ",
+    id: "/projects ",
     title: "Projects ",
   },
   {
-    id: "contact ",
+    id: "/contact ",
     title: "Contact ",
   },
 ];
@@ -90,6 +86,41 @@ export const feedbacks = [
     text: [
       "This really is a first class company. Workmanship, professionalism and price are all excellent. ",
       "Overjoyed with the work by DW Landscaping and Fencing and look forward to using them again in the future. Amazing job - thank you! ",
+    ],
+  },
+];
+
+export const services = [
+  {
+    name: "Fencing",
+    description: [
+      "DW Landscaping & Fencing specializes in professional fencing services, ",
+      "offering a wide range of high-quality fencing solutions tailored to meet our clients' unique needs. ",
+      "With a variety of wooden options available, we ensure that our fencing complements different styles and preferences.",
+    ],
+  },
+  {
+    name: "Lawns",
+    description: [
+      "Create lush green spaces through advanced techniques such as professional mowing, ",
+      "fertilization, aeration, and weed control. I ensure your lawn remains healthy, dense, and impeccably manicured. ",
+      "Whether you envision a classic English lawn or a modern, minimalist look",
+    ],
+  },
+  {
+    name: "Decking",
+    description: [
+      "I'm specialist in crafting bespoke decks that seamlessly blend functionality and aesthetics. ",
+      "DW Landscaping & Fencing utilizes high-quality materials, including wood and composite options, to create durable and visually stunning decks. ",
+      "From contemporary designs to classic styles, we tailor each project to your preferences, ensuring a personalized outdoor space.",
+    ],
+  },
+  {
+    name: "Patios",
+    description: [
+      "Let's design and install stylish patio that redefine your outdoor living.",
+      "Whether you prefer a cozy retreat or an expansive entertainment space.",
+      "Using premium materials like natural stone or pavers, I tailor each patio to your unique style and functional needs.",
     ],
   },
 ];

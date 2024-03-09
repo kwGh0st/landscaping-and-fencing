@@ -30,6 +30,7 @@ import face from "./smile.gif";
 import questionMark from "./question-mark.gif";
 import comment from "./comment.gif";
 import arrow from "./arrow.gif";
+import servicesBg from "./services-bg.jpg";
 
 export {
   logo,
@@ -64,4 +65,5 @@ export {
   questionMark,
   comment,
   arrow,
+  servicesBg,
 };
