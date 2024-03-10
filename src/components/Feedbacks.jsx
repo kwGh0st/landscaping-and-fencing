@@ -35,10 +35,10 @@ const Feedbacks = () => {
 
   return (
     <div className="w-full flex justify-center bg-gray-50 min-h-screen">
-      <div className="flex flex-col lg:flex-row w-10/12 my-8 p-12 lg:justify-between gap-12 bg-gray-100 rounded-2xl">
+      <div className="flex flex-col lg:flex-row w-full lg:w-10/12 my-8 p-12 lg:justify-between gap-12 bg-gray-100 rounded-2xl">
         <div className="flex text-center flex-col gap-8 w-full md:w-2/4">
           <h2 className="text-black text-center text-4xl font-serif font-extrabold max-w-6xl">
-            WHAT OTHERS SAY ABOUT US
+            WHAT CLIENTS SAY ABOUT ME
           </h2>
           <img className="w-32 h-32 mt-8 ml-4" src={comment} alt="quote" />
         </div>
@@ -49,12 +49,12 @@ const Feedbacks = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.25 }}
-            className="flex flex-col items-start gap-4 bg-gray-200 rounded-xl p-10"
+            className="flex flex-col items-start gap-4 bg-gray-200 rounded-xl p-6"
           >
             <h2 className="font-bold text-2xl">
               {feedbacks[currentIndex].name}
             </h2>
-            <p className="text-md lg:text-xl text-start italic text-balance">
+            <p className="text-sm lg:text-lg text-start italic text-balance">
               {" "}
               {feedbacks[currentIndex].text}
             </p>
