@@ -55,6 +55,12 @@ import project10Image3 from "./project10-3.jpg";
 import project10Image4 from "./project10-4.jpg";
 import project10Image5 from "./project10-5.jpg";
 
+import project11Image1 from "./project11-1.jpg";
+import project11Image2 from "./project11-2.jpg";
+import project11Image3 from "./project11-3.jpg";
+import project11Image4 from "./project11-4.jpg";
+import project11Image5 from "./project11-5.jpg";
+
 export const projects = [
   {
     id: 1,
@@ -191,6 +197,23 @@ export const projects = [
       project10Image3,
       project10Image4,
       project10Image5,
+    ],
+  },
+  {
+    id: 11,
+    description: [
+      "Great project completed for a lovely customers near Lincoln.",
+      "Great location and really nice weather!",
+      "# Old slabs and top soil removed.",
+      "# Composite decking installed on a timber frame.",
+      "! All top quality materials supplied by Listers Timber and Builders Merchants.",
+    ],
+    images: [
+      project11Image1,
+      project11Image2,
+      project11Image3,
+      project11Image4,
+      project11Image5,
     ],
   },
 ];
