@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
@@ -33,6 +33,17 @@ const ProjectSlider = ({ images }) => {
 };
 
 const Projects = () => {
+  const projectsPerPage = 5;
+  const [currentPage, setCurrentPage] = useState(1);
+  const indexOfLastProject = currentPage * projectsPerPage;
+  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+  const currentProjects = projects.slice(
+    indexOfFirstProject,
+    indexOfLastProject
+  );
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
   return (
     <div className="flex flex-col w-full items-center gap-8 bg-gray-100 text-center">
       <div
@@ -73,7 +84,7 @@ const Projects = () => {
         </div>
       </p>
       <div className="flex flex-col gap-8 px-4 md:px-12 m-12 w-full">
-        {projects.map((item) => (
+        {currentProjects.map((item) => (
           <div
             className={`flex flex-col rounded-lg bg-gray-200 shadow-xl ${
               item.id % 2 !== 0 ? "md:flex-row" : "md:flex-row-reverse"
@@ -89,6 +100,24 @@ const Projects = () => {
             </div>
             <ProjectSlider className="w-1/2" images={item.images} />
           </div>
+        ))}
+      </div>
+      <div className="flex justify-center mt-4">
+        {Array.from({
+          length: Math.ceil(projects.length / projectsPerPage),
+        }).map((_, index) => (
+          <button
+            key={index + 1}
+            className={`mx-2 p-2 border rounded ${
+              currentPage === index + 1 ? "bg-gray-400" : "bg-gray-200"
+            }`}
+            onClick={() => {
+              window.scrollTo(0, 800);
+              paginate(index + 1);
+            }}
+          >
+            {index + 1}
+          </button>
         ))}
       </div>
     </div>
