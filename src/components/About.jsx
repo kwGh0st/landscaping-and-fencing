@@ -12,12 +12,12 @@ import {
 
 const About = () => {
   return (
-    <div className="flex flex-col w-full bg-gray-50">
+    <div className="flex flex-col w-full bg-gray-100">
       <div className="flex flex-col items-center gap-4 px-6 text-center w-9/12 mx-auto">
         <p className="mt-12 mb-4 text-2xl italic font-serif max-w-6xl">
-          We are a welcoming family-owned business based in Lincoln UK,
-          dedicated to addressing all your gardening needs. Utilizing the finest
-          quality materials available.
+          The company is a welcoming, family-owned business based in Lincoln,
+          UK, dedicated to addressing all your gardening needs. We take pride in
+          utilizing the finest quality materials available.
         </p>
         <div className="flex flex-row items-center">
           <h2 className="text-black my-12 text-4xl font-serif font-extrabold max-w-6xl">
@@ -33,9 +33,9 @@ const About = () => {
             <p className="my-4 text-xl font-serif leading-[30px] max-w-6xl">
               No matter the scale of your project, we'll sit down for a chat,
               explore your options, and collaboratively discover the perfect
-              solution. Join us for a friendly discussion, and feel free to
-              explore our portfolio to witness the transformative possibilities
-              we bring to every endeavor.
+              solution. Join me for a friendly discussion, and feel free to
+              explore my portfolio to witness the transformative possibilities I
+              bring to every endeavor.
             </p>
           </div>
           <div className="flex flex-col flex-1 justify-center items-center gap-6">
@@ -44,9 +44,9 @@ const About = () => {
               Detailed, reliable cost estimates.
             </h2>
             <p className="my-4 text-xl font-serif leading-[30px] max-w-6xl">
-              We go the extra mile in crafting our estimates to ensure a
+              I'm going the extra mile in crafting my estimates to ensure a
               transparent process with no unexpected surprises. Every aspect is
-              meticulously accounted for, down to the smallest detail
+              meticulously accounted for, down to the smallest detail.
             </p>
           </div>
           <div className="flex flex-col flex-1 justify-center items-center gap-6">
@@ -55,16 +55,16 @@ const About = () => {
               Exceptional craftsmanship, guaranteed.
             </h2>
             <p className="my-4 text-xl font-serif leading-[30px] max-w-6xl">
-              We take great pride in utilizing only the highest-quality
-              materials for every project. Our commitment to excellence involves
-              dedicated efforts to ensure your garden maintains its stunning
-              appearance year after year.
+              I take great pride in utilizing only the highest-quality materials
+              for every project. My commitment to excellence involves dedicated
+              efforts to ensure your garden maintains its stunning appearance
+              year after year.
             </p>
           </div>
         </div>
       </div>
       <h2 className="text-center font-bold font-serif text-4xl my-12 mx-4 text-gray-800">
-        We are equipped to meet all your requirements for hard landscaping
+        I'm equipped to meet all your requirements for hard landscaping
         projects.
       </h2>
       <div className="flex flex-col py-8 w-full lg:w-11/12 self-end ">
@@ -85,7 +85,7 @@ const About = () => {
           </div>
           <div className="mx-8 lg:w-1/2">
             <h2 className="font-bold text-4xl text-gray-800 my-6 underline italic">
-              We specialize in:
+              I specialize in:
             </h2>
             <ul className="">
               <li className="flex flex-row gap-4 my-6 italic">

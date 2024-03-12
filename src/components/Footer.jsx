@@ -63,7 +63,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row gap-12 items-center md:items-baseline justify-evenly w-full ">
         <div className="flex flex-col gap-6 mx-4">
           <h2 className="text-black font-bold font-serif text-2xl mt-4">
-            Give us a call...
+            Give me a call...
           </h2>
           <div className="flex flex-row gap-8 items-center">
             <img className="w-6 h-6 mt-1 p-0" src={phone} alt="phone" />
@@ -78,9 +78,9 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="mx-4 w-1/2 md:w-1/4">
+        <div className="mx-4 w-full md:w-1/4">
           <h2 className="text-black font-bold font-serif text-2xl my-4">
-            ...or let us call you back.
+            ...or let me call you back.
           </h2>
           <form
             ref={formRef}
@@ -128,7 +128,7 @@ const Footer = () => {
                 {loading ? "Sending..." : "Send"}
               </button>
               <div className="flex flex-col justify-center items-start md:items-end mt-8">
-                <h2 className="font-bold italic mb-4 self mr-14">Follow us.</h2>
+                <h2 className="font-bold italic mb-4 self mr-14">Follow me.</h2>
                 <div className="flex flex-row justify-center gap-8">
                   <a
                     className="hover:rotate-45 duration-300"

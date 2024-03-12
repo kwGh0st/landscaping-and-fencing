@@ -31,6 +31,7 @@ import questionMark from "./question-mark.gif";
 import comment from "./comment.gif";
 import arrow from "./arrow.gif";
 import servicesBg from "./services-bg.jpg";
+import projectsBg from "./projects-bg.jpg";
 
 export {
   logo,
@@ -66,4 +67,5 @@ export {
   comment,
   arrow,
   servicesBg,
+  projectsBg,
 };

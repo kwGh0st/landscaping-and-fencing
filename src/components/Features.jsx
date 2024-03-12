@@ -14,7 +14,7 @@ import {
 
 const Features = () => {
   return (
-    <div className="w-full bg-gray-50">
+    <div className="w-full bg-gray-100">
       <div className="flex flex-col w-full lg:w-11/12 self-end">
         <div className="flex flex-row justify-between gap-8 bg-gradient-to-r from-gray-600 to-black">
           <div className="mx-8 lg:w-1/2 ">
@@ -26,7 +26,7 @@ const Features = () => {
                   alt="fence"
                 />
                 <p className="font-bold text-white text-md lg:text-lg">
-                  Elevate your property's security and aesthetics with our
+                  Elevate your property's security and aesthetics with my
                   exquisite fencing and gate solutions.
                 </p>
               </li>
@@ -37,8 +37,8 @@ const Features = () => {
                   alt="patio"
                 />
                 <p className="font-bold text-white text-md lg:text-lg">
-                  Transform your outdoor space into a haven of relaxation and
-                  entertainment with our skillfully designed patios.
+                  Turn your outdoor space into a haven of relaxation and
+                  entertainment with the artfully designed patios I offer.
                 </p>
               </li>
               <li className="flex flex-row gap-4 my-6 items-center">
@@ -48,7 +48,7 @@ const Features = () => {
                   alt="paving"
                 />
                 <p className="font-bold text-white text-md lg:text-lg">
-                  Infuse character and durability into your landscape with our
+                  Infuse character and durability into your landscape with my
                   precision brickwork.
                 </p>
               </li>
@@ -59,7 +59,7 @@ const Features = () => {
                   alt="wood-board"
                 />
                 <p className="font-bold text-white text-md lg:text-lg">
-                  Unleash the potential of your outdoor living with our custom
+                  Unleash the potential of your outdoor living with my custom
                   decking solutions.
                 </p>
               </li>
@@ -70,8 +70,8 @@ const Features = () => {
                   alt="lawnMower"
                 />
                 <p className="font-bold text-white text-md lg:text-lg">
-                  Experience the lush greenery of a well-maintained lawn with
-                  our turfing services.
+                  Experience the lush greenery of a well-maintained lawn with my
+                  turfing services.
                 </p>
               </li>
               <li className="flex flex-row gap-4 my-6 items-center">
@@ -81,7 +81,7 @@ const Features = () => {
                   alt="plant"
                 />
                 <p className="font-bold text-white text-md lg:text-lg">
-                  Curate a breathtaking landscape with our expert planting
+                  Curate a breathtaking landscape with my expert planting
                   services.
                 </p>
               </li>

@@ -66,33 +66,37 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col gap-8 items-center w-ful bg-gray-50">
+    <div className="flex flex-col gap-8 items-center w-full bg-gray-100">
       <CompanyMap />
       <div className="flex flex-col px-8 items-center lg:flex-row gap-14 lg:gap-8 justify-between lg:justify-evenly w-full ">
         <div className="flex flex-col gap-8 self-center">
           <div className="flex flex-row items-center gap-8">
             <img className="w-12 h-14" src={marker} alt="marker" />
-            <p className="font-bold text-lg">
+            <p className="font-bold text-md md:text-lg">
               Woodfield Avenue <br />
               LN6 0 Lincoln, <br /> United Kingdom
             </p>
           </div>
           <div className="flex flex-row items-center gap-8">
             <img className="w-12 h-14" src={mobile} alt="marker" />
-            <p className="font-bold text-lg">{import.meta.env.VITE_PHONE}</p>
+            <p className="font-bold text-md md:text-lg">
+              {import.meta.env.VITE_PHONE}
+            </p>
           </div>
           <div className="flex flex-row items-center gap-8">
             <img className="w-12 h-14" src={mailGreen} alt="marker" />
-            <p className="font-bold text-lg">{import.meta.env.VITE_EMAIL}</p>
+            <p className="font-bold text-md md:text-lg">
+              {import.meta.env.VITE_EMAIL}
+            </p>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-3/4 md:w-1/2">
           <form
             ref={formRef}
             onSubmit={handleSubmit}
             className="flex flex-col gap-8"
           >
-            <h2 className="font-bold text-xl ">
+            <h2 className="font-bold  text-lg md:text-xl ">
               Please, fill the form below and I will talk you back as soon as
               possible.
             </h2>
