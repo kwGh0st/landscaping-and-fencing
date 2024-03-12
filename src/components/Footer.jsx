@@ -85,7 +85,7 @@ const Footer = () => {
           <form
             ref={formRef}
             onSubmit={handleSubmit}
-            className="flex flex-col gap-8"
+            className="flex flex-col gap-8 mx-4"
           >
             <div className="flex flex-col gap-4">
               <div className="flex flex-row gap-4 items-center">

@@ -54,7 +54,7 @@ const Feedbacks = () => {
             <h2 className="font-bold text-2xl">
               {feedbacks[currentIndex].name}
             </h2>
-            <p className="text-sm md:text-md lg:text-lg text-start italic text-balance">
+            <p className="text-sm md:p-8 md:text-md lg:text-lg text-start italic text-balance">
               {" "}
               {feedbacks[currentIndex].text}
             </p>

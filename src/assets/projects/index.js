@@ -2,6 +2,7 @@ import project1Image1 from "./project1-1.jpg";
 import project1Image2 from "./project1-2.jpg";
 import project1Image3 from "./project1-3.jpg";
 import project1Image4 from "./project1-4.jpg";
+import project1Image5 from "./project1-5.jpg";
 
 import project2Image1 from "./project2-1.jpg";
 import project2Image2 from "./project2-2.jpg";
@@ -69,7 +70,13 @@ export const projects = [
       "# Silver Grey",
       "# Natural Stone Slabs",
     ],
-    images: [project1Image1, project1Image2, project1Image3, project1Image4],
+    images: [
+      project1Image1,
+      project1Image2,
+      project1Image3,
+      project1Image4,
+      project1Image5,
+    ],
   },
   {
     id: 2,

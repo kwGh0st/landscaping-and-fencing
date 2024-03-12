@@ -66,7 +66,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col gap-8 items-center w-full bg-gray-100">
+    <div className="flex flex-col gap-8 items-center w-full bg-gray-100 mt-24 lg:mt-20">
       <CompanyMap />
       <div className="flex flex-col px-8 items-center lg:flex-row gap-14 lg:gap-8 justify-between lg:justify-evenly w-full ">
         <div className="flex flex-col gap-8 self-center">

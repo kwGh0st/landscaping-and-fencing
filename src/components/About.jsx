@@ -20,7 +20,7 @@ const About = () => {
           utilizing the finest quality materials available.
         </p>
         <div className="flex flex-row items-center">
-          <h2 className="text-black my-12 text-4xl font-serif font-extrabold max-w-6xl">
+          <h2 className="text-black my-12 text-4xl font-serif font-extrabold max-w-6xl underline">
             WHY CHOOSE DW LANDSCAPING & FENCING
           </h2>
         </div>
@@ -84,7 +84,7 @@ const About = () => {
             </div>
           </div>
           <div className="mx-8 lg:w-1/2">
-            <h2 className="font-bold text-4xl text-gray-800 my-6 underline italic">
+            <h2 className="font-bold text-4xl  my-6 underline italic">
               I specialize in:
             </h2>
             <ul className="">
