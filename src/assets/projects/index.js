@@ -185,7 +185,9 @@ export const projects = [
   },
   {
     id: 9,
-    description: ["Fencing and turfing project completed in Lincoln."],
+    description: [
+      "Astro turf project completed for a lovely customer near Lincoln.",
+    ],
     images: [project9Image1, project9Image2, project9Image3, project9Image4],
   },
   {
